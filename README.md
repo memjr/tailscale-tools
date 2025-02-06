@@ -1,4 +1,4 @@
-# Gnome Extension: tailscale-status
+# Gnome Extension: tailscale-tools
 **This extension is in no way affiliated with Tailscale Inc.**
 
 Easily manage your tailnets from a GUI gnome extension.
@@ -23,10 +23,10 @@ Thus, this requires that you have **setup tailscale beforehand**.
 This obviously **requires** [tailscale](https://tailscale.com) to work! 
 
 ### Installation
-Official download from gnome-extensions: [https://extensions.gnome.org/extension/5112/tailscale-status/](https://extensions.gnome.org/extension/5112/tailscale-status/).
+Official download from gnome-extensions: [https://extensions.gnome.org/extension/5112/tailscale-tools/](https://extensions.gnome.org/extension/5112/tailscale-tools/).
 
 ### Development
-Download the `tailscale-status@maxgallup.github.com` directory and move it to `~/.local/share/gnome-shell/extensions/`.
+Download the `tailscale-tools@memjr.github.com` directory and move it to `~/.local/share/gnome-shell/extensions/`.
 Enable the extension in *Extensions* or *Extension Manager*.
 You might have to log in and out for the extension to be loaded.
 

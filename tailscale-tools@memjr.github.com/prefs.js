@@ -9,7 +9,7 @@ function init() {
 
 function fillPreferencesWindow(window) {
  
-    const settings = ExtensionUtils.getSettings("org.gnome.shell.extensions.tailscale-status")
+    const settings = ExtensionUtils.getSettings("org.gnome.shell.extensions.tailscale-tools")
    
     log(settings)
  

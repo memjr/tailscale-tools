@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="gnome-shell-extensions">
-  <schema id="org.gnome.shell.extensions.tailscale-status" path="/org/gnome/shell/extensions/tailscale-status/">
+  <schema id="org.gnome.shell.extensions.tailscale-tools" path="/org/gnome/shell/extensions/tailscale-tools/">
     <key name="refresh-interval" type="i">
       <default>10</default>
       <summary>Refresh Interval</summary>

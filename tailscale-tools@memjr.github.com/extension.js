@@ -76,11 +76,11 @@ let timerId = null;
 
 
 function myWarn(string) {
-    log("🟡 [tailscale-status]: " + string);
+    log("🟡 [tailscale-tools]: " + string);
 }
 
 function myError(string) {
-    log("🔴 [tailscale-status]: " + string);
+    log("🔴 [tailscale-tools]: " + string);
 }
 
 
@@ -590,7 +590,7 @@ const TailscalePopup = GObject.registerClass(
             let infoMenu = new PopupMenu.PopupMenuItem("This extension is in no way affiliated with Tailscale Inc.")
             let contributeMenu = new PopupMenu.PopupMenuItem("Contribute")
             contributeMenu.connect('activate', () => {
-                Util.spawn(['xdg-open', "https://github.com/maxgallup/tailscale-status#contribute"])
+                Util.spawn(['xdg-open', "https://github.com/memjr/tailscale-tools#contribute"])
             })
             
 
@@ -626,7 +626,7 @@ function init() {
 function enable() {
 
     SETTINGS = ExtensionUtils.getSettings(
-        'org.gnome.shell.extensions.tailscale-status');
+        'org.gnome.shell.extensions.tailscale-tools');
     cmdTailscaleStatus()
     // Timer that updates Status icon and drop down menu
     timerId = GLib.timeout_add_seconds(GLib.PRIORITY_DEFAULT, SETTINGS.get_int('refresh-interval'), () => {
